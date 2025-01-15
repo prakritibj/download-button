@@ -74,3 +74,18 @@
 // // Initialize
 // generateRandomText();
 
+// Find the largest element in an array
+
+ let arr = [1,2,3,4,5,6,7,8,24]
+ function largest(arr){
+       return Math.max(...arr)
+ }
+ console.log(largest(arr))
+
+ const demoArr2 = [1, 2, 2, 3, 4, 4, 5];
+    function unique(arr){
+        return[... new Set(arr)]
+      
+    }
+    console.log(unique(demoArr2))
+
